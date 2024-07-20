@@ -8,4 +8,4 @@
 ### 2. using vite
    -npm create vite@latest
    -npm install to install all the node modules
-   -npm run dev to run the file.
+   -npm run dev to run the file
