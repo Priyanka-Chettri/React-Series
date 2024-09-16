@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutMe from './components/AboutMe.jsx'
 import ContactMe from './components/ContactMe.jsx'
 import Skills from './components/Skills.jsx'
+import Experience from './components/Experience.jsx'
 
 
 //creation of a router
@@ -19,8 +20,16 @@ const router=createBrowserRouter([
         element:<AboutMe/>
       },
       {
-        path:"skills",
+        path:"skills/:id",
         element:<Skills/>
+      },
+      {
+        path:"contactme",
+        element:<ContactMe/>
+      },
+      {
+        path:"experience",
+        element:<Experience/>
       }
     ]
   }

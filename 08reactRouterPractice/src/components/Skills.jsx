@@ -1,9 +1,11 @@
 import React from 'react'
+import { useParams } from 'react-router-dom'
 
 function Skills() {
+  const {id}=useParams();
   return (
     <>
-        <div>Skills</div>
+        <div>Skills:{id}{typeof(id)}</div>
 
     </>
   )
